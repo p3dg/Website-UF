@@ -1,0 +1,82 @@
+body {
+    background: url(../images/kiddoo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: 0% 0%;
+	font-family:arial;
+	
+}
+div {
+    background: url(../images/kiddoo.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+	font-family: "Montserrat", sans-serif;
+}
+#header {
+	position: fixed;
+	width: 310px;
+	top: 0px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	background: #003366;
+	height: 70px;
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4);
+	box-shadow: 0 1px 1px rgba(0,0,0,.4);
+	z-index: 5;
+}
+
+ul {
+    list-style-type: none;
+	padding:0;
+}
+
+#header #nav > li > a {
+	color: #003366;
+    font-family: "monospace", lucida console, serif;
+	display:block;
+	float: left;
+		display: inline;
+	height: 30px;
+	padding: 12px 20px 0 20px;
+	background: #003366;
+	background-image: initial;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: #CCCCCC;
+	transition: background-color 400ms ease-in-out, color 400ms ease-in-out;
+	transition-property: background-color, color;
+	transition-duration: 400ms, 400ms;
+	transition-timing-function: ease-in-out, ease-in-out;
+	transition-delay: initial, initial;
+}
+#header #nav > li > a:hover {
+	background: #060606;
+	color: #17f017;
+	-webkit-transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+#copyright > a {
+    font-family: "monospace", lucida console, serif;
+	color: #CCCCCC;
+}
+
+div.main { margin: 0 auto; }
+div.comicFooter { margin-bottom: 10px; }
+div.comicHeaderAlert { padding: 5px; width: 100%; }
+div.comic { clear: both; background-color: #fff; color: black; }
+img.comic { width: 100%; height: auto; }
+img.comicThumb { width: 100%; height: auto; max-width: 320px; padding-top: 20px;}

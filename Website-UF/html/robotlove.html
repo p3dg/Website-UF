@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+		<title>A Universal Focus</title>
+	</head>
+	<body id="grad">
+		<link href="../css/comics.css" rel="stylesheet"/>
+		<link href="../css/bootstrap.min.css" rel="stylesheet"/>
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+		<script>
+			(function shareFB() {
+			    var url = $('#fb_url').html(); #encode url if it is not already
+			    var full_url = 'http://www.facebook.com/sharer.php?u='+url; 
+			    window.open(full_url, 'sharer', 'toolbar=0,status=0,width=548,height=325'));
+			}
+		</script>
+
+		<div class ="container main">
+		<div class ="title">
+			<strong>Robot Heartbreak</strong>
+		</div>
+		<div class="comicHeader">
+        <div class="pull-right">
+            <div class="fb pull-right">
+                <a class="fbshare" href="#">
+                  <img class="fb" src= "../images/navigation/fb.png" alt="Share on Facebook" />
+                </a>
+            </div>
+            <div class="twitter pull-right">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-via="p3dg" data-count="none"></a>
+            </div> 
+		</div>
+        <div class="comicNavContainer pull-left">
+            <div class="comicPagination nav-first">
+                <a class="comicPagination nav-first" href=''></a>
+            </div>
+            <div class="comicPagination nav-prev">
+                <a class="comicPagination nav-prev" href=""></a>
+            </div>
+            <div class="comicPagination nav-blog">
+            	<a class="comicPagination nav-blog" href="universalfoc.us/blog"></a>
+            </div>
+            <div class="comicPagination nav-next">
+                <a class="comicPagination nav-next" href="squirrels.html"></a>
+            </div>
+		            <div class="comicPagination nav-last" data-current_comic_id='1'>
+		                <a class="comicPagination nav-last" href="squirrels.html" data-nav_comic_id="2"></a>
+		            </div>
+	        	</div>
+    		</div>
+			<div class ="comic">
+				<img src="../images/robolove2.png" class="comic" alt="He broke because you can't force love if you're a robot" title="robolove">
+			</div>
+		</div>
+	</body>
+
+</html>

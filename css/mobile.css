@@ -1,0 +1,10 @@
+	body {
+	    background: url(../images/kiddoo.png);
+	    background-position: center;
+	    background-size: 20%;
+	    max-width:100%;
+	    max-height:auto;
+	    background-repeat: no-repeat;
+	    overflow:hidden;
+		font-family:arial;
+	}

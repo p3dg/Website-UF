@@ -1,5 +1,3 @@
-
-
 (function() {
   "use strict";
 
@@ -26,3 +24,6 @@
   el.innerHTML = quotemap[0];
 
 }());
+
+
+$(document).ready(function(){$("#quotes").attr("href", "");});

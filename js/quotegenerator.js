@@ -13,7 +13,7 @@
 
   function rand(xs) {
     return xs.sort(function(){
-      return .5 - Math.random();
+      return 1 - Math.random();
     });
   }
 

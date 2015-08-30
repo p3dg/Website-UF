@@ -1,55 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"> 
-
 	<head>
 		<title>A Universal Focus</title>
-		<link href="css/main.css" rel="stylesheet"/>
-		<link rel="stylesheet" media="(min-width: 600px)" href="css/main.css">
-	    <!-- <link rel="stylesheet" media="(max-width: 600px)" href="css/mobile.css"> -->
-	    <script src="js/quotegenerator.js"></script>
-		<style>
-			p.serif {
-				font-family: "monospace", lucida console, serif;
-			}
-
-			p.sansserif {
-				font-family: Arial, Helvetica, sans-serif;
-			}
-			
-		</style>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<meta name="description" content="Peter Galvin is a pretty cool dood">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
 	</head>
-
-	<!-- Main page with menu elements -->
 	<body>
-		<img src="images/kiddoo.png" class="bg">
-
-		<div id="header">
-			<div class="content">
-			<ul id="nav">
-				<li>
-					<a href="/blog" title="Blog!">Blog</a>
-				</li>
-				<li>
-					<a href="html/thisislove.html" title="Comic!">Comic</a>
-				</li>
-				<li>
-					<a href="https://github.com/p3dg" title="GitHub! Some of my projects I've worked on.">Git</a>
-				</li>
-				<li>
-					<a href="https://soundcloud.com/peter-galvin-1/sets/ohyeah" title="Jams! I like electronic music with nice melodies. Have a listen!">Jams</a>
-				</li>
-			</ul>
+		<div id="mainWrapper">
+			<div id="navWrapper">
+				<div id="navButton">
+					<span class="iconBar"></span>
+					<span class="iconBar"></span>
+					<span class="iconBar"></span>
+				</div>
+				<nav role="navigation" id="mainNav">
+					<ul id="navList">
+						<a href="blog/" class="menuLink" id="blogLink">
+							<li class="menu" id="blogMenu">BLOG</li>
+						</a>
+						<a href="comics/" class="menuLink" id="comicLink">
+							<li class="menu" id="comicMenu">COMIC</li>
+						</a>
+						<a href="" class="menuLink" id="gitLink">
+							<li class="menu" id="gitMenu">GIT</li>
+						</a>
+						<a href="https://soundcloud.com/peter-galvin-1/sets/ohyeah" class="menuLink" id="jamsLink">
+							<li class="menu" id="jamsMenu">JAMS</li>
+						</a>
+					</ul>
+				</nav>
+			</div>
+			<div id="contentWrapper">
+				
 			</div>
 		</div>
-
-		<div id="quotes">
-			<a style="position: absolute; top: 0px; right: 0px">placeholder</a>
-		</div>
-		
-		<div id="copyright">
-			<a style="position: absolute; bottom: 0px; right: 0px">Copyright Peter Galvin peter@universalfoc.us All rights reserved</a>
-		</div>	
-	
 	</body>
 </html>

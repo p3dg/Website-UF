@@ -1,7 +1,10 @@
 #grad {
-	background-size: 100%;
-	height:100vh;
-	background: linear-gradient(#778899, #A2A9AF, black); /* Standard syntax */
+	/*height:100vh;*/
+	background-image:url("../images/dragonsanslines.png");
+  
+  background-position: center;
+  background-size: cover;
+	background-repeat: no-repeat;
 	
 }
 
@@ -13,6 +16,13 @@
   margin-left: -100px;
 }
 
+div.title {
+	color: black;
+	display: inline;
+    background-color: #77A0D4;
+    padding: 0.25em 1em;
+    box-decoration-break: clone;
+}
 div.main { margin: 0 auto; }
 div.comicFooter { margin-bottom: 10px; }
 div.comicHeaderAlert { padding: 5px; width: 100%; }
@@ -85,7 +95,6 @@ a.nav-last:hover {
   background-position: -10px -598px;
 }
 
-div.title {color: white;}
 div.main { margin: 0 auto; }
 div.comicFooter { margin-bottom: 10px; }
 div.comicHeaderAlert { padding: 5px; width: 100%; }

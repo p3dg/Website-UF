@@ -1,3 +1,5 @@
+
+
 (function() {
   "use strict";
 
@@ -13,7 +15,7 @@
 
   function rand(xs) {
     return xs.sort(function(){
-      return 1 - Math.random();
+      return .5 - Math.random();
     });
   }
 
@@ -24,6 +26,3 @@
   el.innerHTML = quotemap[0];
 
 }());
-
-
-$(document).ready(function(){$("#quotes").attr("href", "");});

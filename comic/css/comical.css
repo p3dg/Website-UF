@@ -1,0 +1,44 @@
+
+
+.BackgroundBox {   
+	position:absolute;
+	background-color:#382947;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.comic-box {
+	position:absolute;
+	background-color: #6699CC;
+	top:50%;
+	left:50%;
+  	margin: -100px 0 0 -100px;
+	width:400px;
+	height:300px;
+	z-index: 10;
+	box-shadow: -5px -5px #777777;
+}
+p.logo-circle {
+  	font-family: Arial, Verdana, sans-serif;
+  	color: #999999;
+	text-align:center;
+	vertical-align:50%;
+	position:fixed;
+	top:30;
+	left:30;
+  	width: 50px;
+  	height:50px;
+  	border-radius: 100px;
+  	border-color:#999999;
+  	background-color: rgba(0,0,0,1);
+  	z-index:12;
+}
+
+.footer{
+	position:fixed;
+
+
+	background-color: #999999;
+	height:100px;
+	width: 100%;
+}
